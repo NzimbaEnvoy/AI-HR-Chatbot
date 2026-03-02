@@ -13,40 +13,10 @@ This project demonstrates practical implementation of:
 System Architecture
 The chatbot follows an agentic routing pattern
 
-User Input
-    ↓
-Intent Classification (LLM Router)
-    ↓
- ┌───────────────────────┬───────────────────────┬───────────────────────┐
- │ LEAVE_BALANCE         │ CREATE_TICKET         │ POLICY_QA (RAG)       │
- └───────────────────────┴───────────────────────┴───────────────────────┘
-                                                 ↓
-                                   Hybrid Vector Retrieval
-                                                 ↓
-                                        Llama 3.1 (Ollama)
-                                                 ↓
-                                           Streamlit UI
-
+<img width="755" height="278" alt="Screenshot 2026-03-02 at 13 10 27" src="https://github.com/user-attachments/assets/6827a4aa-3d7a-4d3f-a27e-d5ebce57431e" />
 
 Project Strcuture 
 
-AI-HR-Chatbot/
-│
-├── app.py                  # Streamlit application + agent logic
-├── ingest.py               # Document ingestion + embedding pipeline
-├── requirements.txt
-│
-├── data/
-│   └── hr_docs/
-│       ├── benefits.txt
-│       ├── disciplinary_policy.txt
-│       ├── faq.txt
-│       ├── leave_policy.txt
-│       ├── onboarding.txt
-│       ├── payroll_policy.txt
-│       └── remote_work_policy.txt
-│
-└── db/                     # Auto-generated Chroma vector store
 
-
+<img width="747" height="359" alt="Screenshot 2026-03-02 at 13 10 39" src="https://github.com/user-attachments/assets/61809660-6bd3-4ca1-82b6-33c7c0e4152d" />
 
