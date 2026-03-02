@@ -4,3 +4,6 @@ langchain-ollama
 chromadb
 streamlit
 python-dotenv
+pypdf
+unstructured
+python-docx
