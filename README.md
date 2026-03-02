@@ -1,17 +1,9 @@
 AI HR Chatbot
-Agentic RAG System using LangChain + Ollama + ChromaDB
-An intelligent, locally-hosted HR assistant that combines Retrieval-Augmented Generation (RAG) with agentic intent routing to answer HR policy questions, check leave balances, and simulate HR ticket creation.
-This project demonstrates practical implementation of:
--Large Language Models (Llama 3.1 via Ollama)
--Hybrid Retrieval (FAQ + Policy search)
--Vector Databases (ChromaDB)
--Query Rewriting for conversational memory
--LLM-based Intent Classification
--Streamlit conversational UI
--Local-first AI (no external API dependency)
+
+<img width="838" height="399" alt="Screenshot 2026-03-02 at 13 12 27" src="https://github.com/user-attachments/assets/576d3f86-ff16-43bb-9641-8de6c7e36bf9" />
+
 
 System Architecture
-The chatbot follows an agentic routing pattern
 
 <img width="755" height="278" alt="Screenshot 2026-03-02 at 13 10 27" src="https://github.com/user-attachments/assets/6827a4aa-3d7a-4d3f-a27e-d5ebce57431e" />
 
